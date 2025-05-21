@@ -3,202 +3,202 @@
 </p>
 
 <div align="center">
-  <h1>Awesome Jules Prompts 🌟</h1>
-  <p>Curated prompts for Jules, an async coding agent from Google Labs.</p>
+  <h1>素晴らしい Jules プロンプト集 🌟</h1>
+  <p>Google Labs の非同期コーディングエージェントである Jules のための厳選されたプロンプト集です。</p>
   <br>
-  <a href="https://jules.google.com">Visit Jules</a> •
-  <a href="#contributing">Contribute</a>
+  <a href="https://jules.google.com">Jules にアクセス</a> •
+  <a href="#contributing">貢献する</a>
 </div>
 
 ---
 
-## Table of Contents
+## 目次
 
-- [Table of Contents](#table-of-contents)
-- [Everyday Dev Tasks](#everyday-dev-tasks)
-- [Debugging](#debugging)
-- [Documentation](#documentation)
-- [Testing](#testing)
-- [Package Management](#package-management)
-- [AI-Native Tasks](#ai-native-tasks)
-- [Context](#context)
-- [Fun \& Experimental](#fun--experimental)
-- [Start from Scratch](#start-from-scratch)
-- [Contributing](#contributing)
+- [目次](#目次)
+- [日常的な開発タスク](#日常的な開発タスク)
+- [デバッグ](#デバッグ)
+- [ドキュメンテーション](#ドキュメンテーション)
+- [テスト](#テスト)
+- [パッケージ管理](#パッケージ管理)
+- [AI ネイティブタスク](#aiネイティブタスク)
+- [コンテキスト](#コンテキスト)
+- [楽しい実験的なこと](#楽しい実験的なこと)
+- [ゼロから始める](#ゼロから始める)
+- [貢献](#貢献)
 
 ---
 
-## Everyday Dev Tasks
+## 日常的な開発タスク
 
-- `// Refactor {a specific} file from {x} to {y}...`
-  <sub>General-purpose, applies to any language or repo.</sub>
+- `// {特定の} ファイルを {x} から {y} にリファクタリングして...`
+  <sub>汎用。あらゆる言語やリポジトリに適用可能。</sub>
 
-- `// Add a test suite...`
-  <sub>Useful for repos lacking test coverage.</sub>
+- `// テストスイートを追加して...`
+  <sub>テストカバレッジが不足しているリポジトリに便利。</sub>
 
-- `// Add type hints to {a specific} Python function...`
-  <sub>Python codebases transitioning to typed code.</sub>
+- `// {特定の} Python 関数に型ヒントを追加して...`
+  <sub>型付きコードに移行中の Python コードベース。</sub>
 
-- `// Generate mock data for {a specific} schema...`
-  <sub>APIs, frontends, or test-heavy environments.</sub>
+- `// {特定の} スキーマのモックデータを生成して...`
+  <sub>API、フロントエンド、またはテストが多い環境。</sub>
 
-- `// Convert these commonJS modules to ES modules...`
-  <sub>JS/TS projects modernizing legacy code.</sub>
+- `// これらの CommonJS モジュールを ES モジュールに変換して...`
+  <sub>レガシーコードを近代化している JS/TS プロジェクト。</sub>
 
-- `// Turn this callback-based code into async/await...`
-  <sub>JavaScript or Python codebases improving async logic.</sub>
+- `// このコールバックベースのコードを async/await に書き換えて...`
+  <sub>非同期ロジックを改善している JavaScript または Python コードベース。</sub>
 
 
 
-## Debugging
+## デバッグ
 
-- `// Help me fix {a specific} error...`
-  <sub>For any repo where you're stuck on a runtime or build error.</sub>
+- `// {特定のエラー} の修正を手伝って...`
+  <sub>ランタイムエラーまたはビルドエラーで困っているリポジトリ向け。</sub>
 
-- `// Why is {this specific snippet of code} slow?`
-  <sub>Performance profiling for loops, functions, or queries.</sub>
+- `// なぜ {この特定のコードスニペット} は遅いのですか？`
+  <sub>ループ、関数、またはクエリのパフォーマンスプロファイリング。</sub>
 
-- `// Trace why this value is undefined...`
-  <sub>Frontend and backend JS/TS bugs.</sub>
+- `// この値が未定義である理由を追跡して...`
+  <sub>フロントエンドおよびバックエンドの JS/TS バグ。</sub>
 
-- `// Diagnose this memory leak...`
-  <sub>Server-side apps or long-running processes.</sub>
+- `// このメモリリークを診断して...`
+  <sub>サーバーサイドアプリまたは長時間実行プロセス。</sub>
 
-- `// Add logging to help debug this issue...`
-  <sub>Useful when troubleshooting silent failures.</sub>
+- `// この問題をデバッグするためにログを追加して...`
+  <sub>サイレント障害のトラブルシューティングに便利。</sub>
 
-- `// Find race conditions in this async code`
-  <sub>Concurrent systems in JS, Python, Go, etc.</sub>
+- `// この非同期コードの競合状態を見つけて`
+  <sub>JS、Python、Go などの並行システム。</sub>
 
 
-## Documentation
+## ドキュメンテーション
 
-- `// Write a README for this project`
-  <sub>Any repo lacking a basic project overview.</sub>
+- `// このプロジェクトの README を書いて`
+  <sub>基本的なプロジェクト概要が不足しているリポジトリ。</sub>
 
-- `// Add comments to this code`
-  <sub>Improves maintainability of complex logic.</sub>
+- `// このコードにコメントを追加して`
+  <sub>複雑なロジックの保守性を向上させます。</sub>
 
-- `// Write API docs for this endpoint`
-  <sub>REST or GraphQL backends.</sub>
+- `// このエンドポイントの API ドキュメントを書いて`
+  <sub>REST または GraphQL バックエンド。</sub>
 
 
 
-## Testing
+## テスト
 
-- `// Add integration tests for this API endpoint`
-  <sub>Express, FastAPI, Django, Flask apps.</sub>
+- `// この API エンドポイントの統合テストを追加して`
+  <sub>Express、FastAPI、Django、Flask アプリ。</sub>
 
-- `// Write a test that mocks fetch`
-  <sub>Browser-side fetch or axios logic.</sub>
+- `// fetch をモックするテストを書いて`
+  <sub>ブラウザ側の fetch または axios ロジック。</sub>
 
-- `// Convert this test from Mocha to Jest`
-  <sub>JS test suite migrations.</sub>
+- `// このテストを Mocha から Jest に変換して`
+  <sub>JS テストスイートの移行。</sub>
 
-- `// Generate property-based tests for this function`
-  <sub>Functional or logic-heavy code.</sub>
+- `// この関数のプロパティベースのテストを生成して`
+  <sub>関数型またはロジックが多いコード。</sub>
 
-- `// Simulate slow network conditions in this test suite`
-  <sub>Web and mobile apps.</sub>
+- `// このテストスイートで低速なネットワーク状態をシミュレートして`
+  <sub>Web およびモバイルアプリ。</sub>
 
-- `// Write a test to ensure backward compatibility for this function`
-  <sub>Library or SDK maintainers.</sub>
+- `// この関数の後方互換性を保証するテストを書いて`
+  <sub>ライブラリまたは SDK のメンテナー。</sub>
 
 
 
-## Package Management
+## パッケージ管理
 
-- `// Upgrade my linter and autofix breaking config changes`
-  <sub>JS/TS repos using ESLint or Prettier.</sub>
+- `// リンターをアップグレードして、互換性のない設定変更を自動修正して`
+  <sub>ESLint または Prettier を使用している JS/TS リポジトリ。</sub>
 
-- `// Show me the changelog for React 19`
-  <sub>Web frontend apps using React.</sub>
+- `// React 19 の変更履歴を見せて`
+  <sub>React を使用している Web フロントエンドアプリ。</sub>
 
-- `// Which dependencies can I safely remove?`
-  <sub>Bloated or legacy codebases.</sub>
+- `// 安全に削除できる依存関係はどれですか？`
+  <sub>肥大化した、またはレガシーなコードベース。</sub>
 
-- `// Check if these packages are still maintained`
-  <sub>Security-conscious or long-term projects.</sub>
+- `// これらのパッケージがまだメンテナンスされているか確認して`
+  <sub>セキュリティ意識の高い、または長期的なプロジェクト。</sub>
 
-- `// Set up Renovate or Dependabot for auto-updates`
-  <sub>Best for active projects with CI/CD.</sub>
+- `// 自動更新のために Renovate または Dependabot を設定して`
+  <sub>CI/CD を備えたアクティブなプロジェクトに最適。</sub>
 
 
 
-## AI-Native Tasks
+## AI ネイティブタスク
 
-- `// Analyze this repo and generate 3 feature ideas`
-  <sub>Vision-stage or greenfield products.</sub>
+- `// このリポジトリを分析して、3つの機能アイデアを生成して`
+  <sub>構想段階または新規の製品。</sub>
 
-- `// Identify tech debt in this file`
-  <sub>Codebases with messy or fragile logic.</sub>
+- `// このファイルの技術的負債を特定して`
+  <sub>煩雑または脆弱なロジックを持つコードベース。</sub>
 
-- `// Find duplicate logic across files`
-  <sub>Sprawling repos lacking DRY practices.</sub>
+- `// ファイル間で重複するロジックを見つけて`
+  <sub>DRY 原則が欠如している広大なリポジトリ。</sub>
 
-- `// Cluster related functions and suggest refactors`
-  <sub>Projects with lots of utils or helpers.</sub>
+- `// 関連する関数をクラスタリングし、リファクタリングを提案して`
+  <sub>ユーティリティやヘルパーが多いプロジェクト。</sub>
 
-- `// Help me scope this issue so Jules can solve it`
-  <sub>For working with Jules on real issues.</sub>
+- `// Jules が解決できるように、この問題の範囲を絞り込むのを手伝って`
+  <sub>実際の問題について Jules と協力するため。</sub>
 
-- `// Convert this function into a reusable plugin/module`
-  <sub>Componentizing logic-heavy code.</sub>
+- `// この関数を再利用可能なプラグイン/モジュールに変換して`
+  <sub>ロジックが多いコードのコンポーネント化。</sub>
 
 
 
-## Context
+## コンテキスト
 
-- `// Write a status update based on recent commits`
-  <sub>Managerial and async communication.</sub>
+- `// 最近のコミットに基づいてステータス更新を書いて`
+  <sub>管理および非同期コミュニケーション。</sub>
 
-- `// Summarize all changes in the last 7 days`
-  <sub>Catching up after time off.</sub>
+- `// 過去7日間のすべての変更を要約して`
+  <sub>休暇明けのキャッチアップ。</sub>
 
 
 
-## Fun & Experimental
+## 楽しい実験的なこと
 
-- `// Add a confetti animation when {a specific} action succeeds`
-  <sub>Frontend web apps with user delight moments.</sub>
+- `// {特定のアクション} が成功したときに紙吹雪アニメーションを追加して`
+  <sub>ユーザーに喜びの瞬間を提供するフロントエンド Web アプリ。</sub>
 
-- `// Inject a developer joke when {a specific} build finishes`
-  <sub>Personal projects or team tools.</sub>
+- `// {特定のビルド} が終了したときに開発者ジョークを挿入して`
+  <sub>個人プロジェクトまたはチームツール。</sub>
 
-- `// Build a mini CLI game that runs in the terminal`
-  <sub>For learning or community fun.</sub>
+- `// ターミナルで実行されるミニ CLI ゲームを構築して`
+  <sub>学習またはコミュニティの楽しみのため。</sub>
 
-- `// Add a dark mode Easter egg to this UI`
-  <sub>Design-heavy frontend projects.</sub>
+- `// この UI にダークモードのイースターエッグを追加して`
+  <sub>デザイン重視のフロントエンドプロジェクト。</sub>
 
-- `// Turn this tool into a GitHub App`
-  <sub>Reusable, platform-integrated tools.</sub>
+- `// このツールを GitHub アプリに変えて`
+  <sub>再利用可能でプラットフォームに統合されたツール。</sub>
 
-## Start from Scratch
+## ゼロから始める
 
-- `// What's going on in this repo?`
-  <sub>Great for legacy repos or onboarding onto unfamiliar code.</sub>
+- `// このリポジトリで何が起こっていますか？`
+  <sub>レガシーリポジトリや不慣れなコードへのオンボーディングに最適。</sub>
 
-- `// Initialize a new Express app with CORS enabled`
-  <sub>Web backend projects using Node.js and Express.</sub>
+- `// CORS が有効な新しい Express アプリを初期化して`
+  <sub>Node.js と Express を使用する Web バックエンドプロジェクト。</sub>
 
-- `// Set up a monorepo using Turborepo and PNPM`
-  <sub>Multi-package JS/TS projects with shared dependencies.</sub>
+- `// Turborepo と PNPM を使用してモノレポを設定して`
+  <sub>共有依存関係を持つマルチパッケージ JS/TS プロジェクト。</sub>
 
-- `// Bootstrap a Python project with Poetry and Pytest`
-  <sub>Python repos aiming for clean dependency and test setup.</sub>
+- `// Poetry と Pytest で Python プロジェクトをブートストラップして`
+  <sub>クリーンな依存関係とテスト設定を目指す Python リポジトリ。</sub>
 
-- `// Create a starter template for a Chrome extension`
-  <sub>Browser extension development.</sub>
+- `// Chrome 拡張機能のスターターテンプレートを作成して`
+  <sub>ブラウザ拡張機能開発。</sub>
 
-- `// I want to build a web scraper—start me off`
-  <sub>Data scraping or automation tools using Python/Node.</sub>
+- `// Web スクレイパーを構築したいのですが、手始めに`
+  <sub>Python/Node を使用するデータスクレイピングまたは自動化ツール。</sub>
 
 
 
-## Contributing
+## 貢献
 
-Your contributions are welcome! Add new prompts, fix formatting, or suggest categories.
+あなたの貢献を歓迎します！新しいプロンプトの追加、フォーマットの修正、カテゴリの提案などをお願いします。
 
-- 📄 [Contributing Guide](contributing.md)
-- 🪄 Open a [Pull Request](https://github.com/YOUR_REPO/pulls)
+- 📄 [貢献ガイド](contributing.md)
+- 🪄 [プルリクエストを開く](https://github.com/YOUR_REPO/pulls)
