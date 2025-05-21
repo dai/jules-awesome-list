@@ -3,11 +3,11 @@
 </p>
 
 <div align="center">
-  <h1>素晴らしい Jules プロンプト集 🌟</h1>
+  <h1>Awesome Jules プロンプト集 🌟</h1>
   <p>Google Labs の非同期コーディングエージェントである Jules のための厳選されたプロンプト集です。</p>
   <br>
   <a href="https://jules.google.com">Jules にアクセス</a> •
-  <a href="#contributing">貢献する</a>
+  <a href="#貢献">貢献する</a>
 </div>
 
 ---
