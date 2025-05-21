@@ -196,9 +196,7 @@
 
 
 
-## 貢献
-
 あなたの貢献を歓迎します！新しいプロンプトの追加、フォーマットの修正、カテゴリの提案などをお願いします。
 
 - 📄 [貢献ガイド](contributing.md)
-- 🪄 [プルリクエストを開く](https://github.com/YOUR_REPO/pulls)
+- 🪄 [プルリクエストを開く](https://github.com/dai/jules-awesome-list/pulls)
