@@ -48,9 +48,8 @@
 - `// このコールバックベースのコードを async/await に書き換えて...`
   <sub>非同期ロジックを改善している JavaScript または Python コードベース。</sub>
 
-- `// Implement a data class for this dictionary structure...`
-  <sub>Useful for Python projects moving towards more structured data handling with `dataclasses` or Pydantic.</sub>
-
+- `// この辞書構造のデータ クラスを実装して...`
+  <sub>Python プロジェクトで `dataclasses` や Pydantic を用いて、より構造化されたデータハンドリングに移行する際に役立ちます。</sub>
 
 
 ## デバッグ
@@ -73,8 +72,8 @@
 - `// この非同期コードの競合状態を見つけて`
   <sub>JS、Python、Go などの並行システム。</sub>
 
-- `// Add print statements to trace the execution flow of this Python script...`
-  <sub>For debugging complex Python scripts or understanding unexpected behavior.</sub>
+- `// この Python スクリプトの実行フローをトレースするためにprint文を追加する...`
+  <sub>複雑な Python スクリプトのデバッグや予期しない動作を理解するために。</sub>
 
 
 ## ドキュメンテーション
@@ -88,8 +87,8 @@
 - `// このエンドポイントの API ドキュメントを書いて`
   <sub>REST または GraphQL バックエンド。</sub>
 
-- `// Generate Sphinx-style docstrings for this Python module/class/function...`
-  <sub>Ideal for Python projects using Sphinx for documentation generation.</sub>
+- `// Sphinx 風 docstrings 用の Python module/class/function...`
+  <sub>ドキュメント生成に Sphinx 風の docstrings を使っている Python プロジェクトに最適です。</sub>
 
 
 
@@ -113,8 +112,8 @@
 - `// この関数の後方互換性を保証するテストを書いて`
   <sub>ライブラリまたは SDK のメンテナー。</sub>
 
-- `// Write a Pytest fixture to mock this external API call...`
-  <sub>For Python projects using Pytest and needing robust mocking for testing.</sub>
+- `// この外部 API 呼び出しをモックする Pytest フィクスチャを書いて...`
+  <sub>Pytest を使っている Python プロジェクトで、テストのための堅牢なモックが必要な場合。</sub>
 
 
 
@@ -157,8 +156,8 @@
 - `// この関数を再利用可能なプラグイン/モジュールに変換して`
   <sub>ロジックが多いコードのコンポーネント化。</sub>
 
-- `// Refactor this Python function to be more amenable to parallel processing (e.g., using multiprocessing or threading)...`
-  <sub>For optimizing performance in computationally intensive Python applications.</sub>
+- `// この Python 関数をリファクタリングして、並列処理（マルチプロセッシングやスレッディングの使用など）に対応できるようにして...`
+  <sub>計算集約型の Python アプリケーションでのパフォーマンス最適化。</sub>
 
 
 
