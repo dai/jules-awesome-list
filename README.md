@@ -48,6 +48,9 @@
 - `// このコールバックベースのコードを async/await に書き換えて...`
   <sub>非同期ロジックを改善している JavaScript または Python コードベース。</sub>
 
+- `// Implement a data class for this dictionary structure...`
+  <sub>Useful for Python projects moving towards more structured data handling with `dataclasses` or Pydantic.</sub>
+
 
 
 ## デバッグ
@@ -70,6 +73,9 @@
 - `// この非同期コードの競合状態を見つけて`
   <sub>JS、Python、Go などの並行システム。</sub>
 
+- `// Add print statements to trace the execution flow of this Python script...`
+  <sub>For debugging complex Python scripts or understanding unexpected behavior.</sub>
+
 
 ## ドキュメンテーション
 
@@ -81,6 +87,9 @@
 
 - `// このエンドポイントの API ドキュメントを書いて`
   <sub>REST または GraphQL バックエンド。</sub>
+
+- `// Generate Sphinx-style docstrings for this Python module/class/function...`
+  <sub>Ideal for Python projects using Sphinx for documentation generation.</sub>
 
 
 
@@ -103,6 +112,9 @@
 
 - `// この関数の後方互換性を保証するテストを書いて`
   <sub>ライブラリまたは SDK のメンテナー。</sub>
+
+- `// Write a Pytest fixture to mock this external API call...`
+  <sub>For Python projects using Pytest and needing robust mocking for testing.</sub>
 
 
 
@@ -144,6 +156,9 @@
 
 - `// この関数を再利用可能なプラグイン/モジュールに変換して`
   <sub>ロジックが多いコードのコンポーネント化。</sub>
+
+- `// Refactor this Python function to be more amenable to parallel processing (e.g., using multiprocessing or threading)...`
+  <sub>For optimizing performance in computationally intensive Python applications.</sub>
 
 
 
