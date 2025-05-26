@@ -79,26 +79,24 @@
 ## ドキュメンテーション
 
 - `// このプロジェクトの README を書いて`
-  <sub>基本的なプロジェクト概要が不足しているリポジトリ。</sub>
+  <sub>基本的なプロジェクト概要が不足しているリポジトリ向け。</sub>
 
 - `// このコードにコメントを追加して`
   <sub>複雑なロジックの保守性を向上させます。</sub>
 
 - `// このエンドポイントの API ドキュメントを書いて`
-  <sub>REST または GraphQL バックエンド。</sub>
+  <sub>REST または GraphQL バックエンド向け。</sub>
 
 - `// Sphinx 風 docstrings 用の Python module/class/function...`
   <sub>ドキュメント生成に Sphinx 風の docstrings を使っている Python プロジェクトに最適です。</sub>
 
-
-
 ## テスト
 
 - `// この API エンドポイントの統合テストを追加して`
-  <sub>Express、FastAPI、Django、Flask アプリ。</sub>
+  <sub>Express、FastAPI、Django、Flask アプリなど。</sub>
 
 - `// fetch をモックするテストを書いて`
-  <sub>ブラウザ側の fetch または axios ロジック。</sub>
+  <sub>ブラウザー側の fetch または axios ロジック。</sub>
 
 - `// このテストを Mocha から Jest に変換して`
   <sub>JS テストスイートの移行。</sub>
@@ -114,8 +112,6 @@
 
 - `// この外部 API 呼び出しをモックする Pytest フィクスチャを書いて...`
   <sub>Pytest を使っている Python プロジェクトで、テストのための堅牢なモックが必要な場合。</sub>
-
-
 
 ## パッケージ管理
 
@@ -133,8 +129,6 @@
 
 - `// 自動更新のために Renovate または Dependabot を設定して`
   <sub>CI/CD を備えたアクティブなプロジェクトに最適。</sub>
-
-
 
 ## AI ネイティブタスク
 
@@ -167,7 +161,7 @@
   <sub>管理および非同期コミュニケーション。</sub>
 
 - `// 過去7日間のすべての変更を要約して`
-  <sub>休暇明けのキャッチアップ。</sub>
+  <sub>休暇明けのキャッチアップに。</sub>
 
 
 
@@ -203,10 +197,10 @@
   <sub>クリーンな依存関係とテスト設定を目指す Python リポジトリ。</sub>
 
 - `// Chrome 拡張機能のスターターテンプレートを作成して`
-  <sub>ブラウザ拡張機能開発。</sub>
+  <sub>ブラウザー拡張機能の開発に。</sub>
 
 - `// Web スクレイパーを構築したいのですが、手始めに`
-  <sub>Python/Node を使用するデータスクレイピングまたは自動化ツール。</sub>
+  <sub>Python/Node を使用するデータスクレイピングまたは自動化ツールを構築。</sub>
 
 ## 貢献する
 
